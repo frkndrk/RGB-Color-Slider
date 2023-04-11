@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>RGB Color Slider</title>
+</head>
+<body>
+    <div class="rgb-area">
+        <h1 oninput="colors()">RGB COLOR SLIDER</h1>
+        <div class="red area">
+            <label for="red">R</label>
+            <input min="0" max="255" value="0" oninput="colors()" class="rgb" id="red" type="range">
+        </div>
+        <div class="green area">
+            <label for="green">G</label>
+            <input min="0" max="255" value="0" oninput="colors()" class="rgb" id="green" type="range">
+        </div>
+        <div class="blue area">
+            <label for="blue">B</label>
+            <input min="0" max="255" value="0" oninput="colors()" class="rgb" id="blue" type="range">
+        </div>
+        <label for="" id="label" oninput="colors()">rgb(0, 0, 0)</label>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
