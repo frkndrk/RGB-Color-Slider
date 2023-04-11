@@ -77,4 +77,7 @@ label {
     .rgb-area {
         width: 80%;
     }
+    #label {
+        width: 50%;
+    }
 }
