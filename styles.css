@@ -60,3 +60,21 @@ label {
     letter-spacing: 1px;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 1200px) {
+    .rgb-area {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rgb-area {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    .rgb-area {
+        width: 80%;
+    }
+}
